@@ -1,13 +1,8 @@
-# Password-generator-reactJs
-This is a simple yet powerful password generator built using React and leveraging the capabilities of React Hooks - specifically useState, useRef, useCallback, and useEffect. The application allows users to dynamically generate passwords based on their preferences.
+# React + Vite
 
-# Features:
-Password Length Customization: Utilize an input range slider to adjust the length of the password.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Inclusion of Numbers and Special Characters: Toggle checkboxes to include numbers and special characters in the generated passwords.
+Currently, two official plugins are available:
 
-Copy to Clipboard: Conveniently copy the generated password with a single click using the "Copy" button.
-
-# Technologies Used:
-React
-React Hooks (useState, useRef, useCallback, useEffect)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
